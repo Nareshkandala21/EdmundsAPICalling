@@ -14,6 +14,7 @@
 		0E2BE2031DF40C3000EE9970 /* EdmundsAPICalling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BE2011DF40C3000EE9970 /* EdmundsAPICalling.xcdatamodeld */; };
 		0E2BE2051DF40C3000EE9970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2BE2041DF40C3000EE9970 /* Assets.xcassets */; };
 		0E2BE2081DF40C3000EE9970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2BE2061DF40C3000EE9970 /* LaunchScreen.storyboard */; };
+		0EAE35251DF980720004D91E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE35241DF980720004D91E /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		0E2BE2041DF40C3000EE9970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2BE2071DF40C3000EE9970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2BE2091DF40C3000EE9970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAE35231DF980720004D91E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0EAE35241DF980720004D91E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		0E2BE1F41DF40C2F00EE9970 /* EdmundsAPICalling */ = {
 			isa = PBXGroup;
 			children = (
+				0EAE35261DF981A10004D91E /* MBPrograssBar */,
 				0E2BE1F81DF40C3000EE9970 /* AppDelegate.h */,
 				0E2BE1F91DF40C3000EE9970 /* AppDelegate.m */,
 				0E2BE1FB1DF40C3000EE9970 /* ViewController.h */,
@@ -80,6 +84,15 @@
 				0E2BE1F61DF40C3000EE9970 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EAE35261DF981A10004D91E /* MBPrograssBar */ = {
+			isa = PBXGroup;
+			children = (
+				0EAE35231DF980720004D91E /* MBProgressHUD.h */,
+				0EAE35241DF980720004D91E /* MBProgressHUD.m */,
+			);
+			name = MBPrograssBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			files = (
 				0E2BE1FD1DF40C3000EE9970 /* ViewController.m in Sources */,
 				0E2BE1FA1DF40C3000EE9970 /* AppDelegate.m in Sources */,
+				0EAE35251DF980720004D91E /* MBProgressHUD.m in Sources */,
 				0E2BE2031DF40C3000EE9970 /* EdmundsAPICalling.xcdatamodeld in Sources */,
 				0E2BE1F71DF40C3000EE9970 /* main.m in Sources */,
 			);
@@ -313,6 +327,7 @@
 				0E2BE20E1DF40C3000EE9970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

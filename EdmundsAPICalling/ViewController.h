@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
+@property(nonatomic)IBOutlet UITableView *tableVc;
+@property (strong, nonatomic) IBOutlet UIView *searchview;
+@property (nonatomic) BOOL shouldRefresh; // in .h file
 
 @end
 
